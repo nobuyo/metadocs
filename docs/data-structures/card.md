@@ -24,5 +24,5 @@ dataset_query | [DatasetQuery](/data-structures/dataset-query) | JSON stringifie
 
 ## Source Code
 
-- [Backend model definition](https://github.com/metabase/metabase/blob/master/src/metabase/models/card.clj)
+- [Backend model definition](https://github.com/metabase/metabase/blob/v0.38.3/src/metabase/models/card.clj)
 - [Frontend type definition](https://github.com/metabase/metabase/blob/v0.38.3/frontend/src/metabase-types/types/Card.js)

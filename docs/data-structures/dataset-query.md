@@ -37,7 +37,7 @@ name | string | Used as a key for mapping with filters on the dashboard.
 display-name | string | Display name
 type | `text` \| `date` \| `number` \| `dimension` |
 dimension | `['field-id', field-id]` | `field-id` is ID on `metabase_field` table.<br/>Required if `type === dimension`.
-widget-type | string | `category`, `date/*`, etc. See [Parameters](/parameters)
+widget-type | string | `category`, `date/*`, etc. See [Parameters](/parameters) for types list.<br/>Required if `type === dimension`.
 
 ## Source Code
 
