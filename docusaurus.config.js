@@ -5,8 +5,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Metadocs',
   tagline: 'Unofficial Metabase internal representation cheat sheet',
-  url: 'https://nobuyo.github.io/metadocs',
-  baseUrl: '/',
+  url: 'https://nobuyo.github.io/',
+  baseUrl: '/metadocs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/microscope.svg',
@@ -52,7 +52,6 @@ module.exports = {
       anonymizeIP: true,
     },
   },
-  plugins: ['@docusaurus/plugin-google-analytics'],
   presets: [
     [
       '@docusaurus/preset-classic',

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-slug: /parameters/locations
+slug: /parameters/location
 ---
 
 # Locations
