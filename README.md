@@ -1,33 +1,30 @@
-# Website
+# Metadocs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+![build](https://github.com/nobuyo/metadocs/actions/workflows/publish.yml/badge.svg?branch=deploy)
 
-## Installation
+Unofficial Metabase internal representation cheat sheet.
+You can view it [here](https://nobuyo.github.io/metadocs).
 
-```console
-yarn install
+## Start writing
+
+```sh
+% npm install
+% npm run start # run live document at localhost:3000
 ```
 
-## Local Development
+## Contribution
 
-```console
-yarn start
-```
+1. Fork it ( http://github.com/nobuyo/metadocs/fork )
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## LICENSE
 
-## Build
+[MIT License](https://opensource.org/licenses/MIT)
 
-```console
-yarn build
-```
+**NOTE**
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+It is created based on the original [metabase](https://github.com/metabase/metabase) implementation.
+If you have any problems with the license or other issues, please let me know through GitHub Issue.
