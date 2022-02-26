@@ -1,22 +1,19 @@
-import Link from 'next/link'
-import { Category } from '@/lib/api';
-import styles from '../styles/sidebar-item.module.scss';
+import Link from "next/link";
+import { Category } from "@/lib/api";
+import styles from "../styles/sidebar-item.module.scss";
 
 type Props = {
   category: Category;
   currentSlug: string;
-}
+};
 
 const SideBarItem = ({ category, currentSlug }: Props) => {
   let classes;
 
-
   return (
     <>
       <div className={styles.category}>
-        <div className={styles.categoryName}>
-          {category.label}
-        </div>
+        <div className={styles.categoryName}>{category.label}</div>
         <div className={styles.pagesList}>
           {category.pages.map((page) => {
             if (currentSlug === page.fullSlug) {
@@ -31,12 +28,12 @@ const SideBarItem = ({ category, currentSlug }: Props) => {
                   <div className={classes}>{page.title}</div>
                 </a>
               </Link>
-            )
+            );
           })}
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SideBarItem
+export default SideBarItem;

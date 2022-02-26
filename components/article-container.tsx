@@ -1,9 +1,9 @@
-import styles from '../styles/article-container.module.scss';
-import { Article } from '@/lib/api';
+import styles from "../styles/article-container.module.scss";
+import { Article } from "@/lib/api";
 
 type Props = {
   page: Article;
-}
+};
 
 const ArticleContainer = ({ page }: Props) => {
   return (
@@ -14,7 +14,7 @@ const ArticleContainer = ({ page }: Props) => {
         </div>
       </article>
     </>
-  )
-}
+  );
+};
 
-export default ArticleContainer
+export default ArticleContainer;

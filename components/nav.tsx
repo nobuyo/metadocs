@@ -1,6 +1,6 @@
-import styles from '../styles/nav.module.scss';
-import Image from 'next/image';
-import Link from 'next/link';
+import styles from "../styles/nav.module.scss";
+import Image from "next/image";
+import Link from "next/link";
 
 const Nav = () => {
   return (
@@ -10,7 +10,11 @@ const Nav = () => {
           <a>
             <div className={styles.title}>
               <div className="logo">
-                {Image({ src: "/microscope.svg", width: '32px', height: '32px'})}
+                {Image({
+                  src: "/microscope.svg",
+                  width: "32px",
+                  height: "32px",
+                })}
               </div>
               <div className={styles.text}>Metadocs</div>
             </div>
@@ -18,7 +22,7 @@ const Nav = () => {
         </Link>
       </nav>
     </>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

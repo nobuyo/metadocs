@@ -1,6 +1,6 @@
-import '../styles/globals.scss'
-import type { AppProps } from 'next/app'
-import Layout from '../components/layout';
+import "../styles/globals.scss";
+import type { AppProps } from "next/app";
+import Layout from "../components/layout";
 
 function Metadocs({ Component, pageProps }: AppProps) {
   return (
@@ -9,7 +9,7 @@ function Metadocs({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </Layout>
     </>
-  )
+  );
 }
 
-export default Metadocs
+export default Metadocs;

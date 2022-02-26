@@ -1,6 +1,6 @@
-import type { NextPage } from 'next'
+import type { NextPage } from "next";
 
-import Nav from './nav';
+import Nav from "./nav";
 
 const Layout: NextPage = ({ children }) => {
   return (
@@ -8,7 +8,7 @@ const Layout: NextPage = ({ children }) => {
       <Nav />
       {children}
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

@@ -1,15 +1,15 @@
-import { NextPage, InferGetStaticPropsType} from 'next';
-import Head from 'next/head';
-import { getAllCategories, getArticle } from '@/lib/api';
-import SideBar from '@/components/sidebar';
+import { NextPage, InferGetStaticPropsType } from "next";
+import Head from "next/head";
+import { getAllCategories, getArticle } from "@/lib/api";
+import SideBar from "@/components/sidebar";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
 export const getStaticPaths = () => {
   const categories = getAllCategories();
-  const slugs = categories.flatMap(category => {
+  const slugs = categories.flatMap((category) => {
     return category.pages.map((page) => page.slug);
-  })
+  });
 
   return {
     paths: slugs.map((slug) => {
@@ -28,7 +28,7 @@ export const getStaticProps = async ({ params }: any) => {
   return {
     props: { pageContent, allCategories },
   };
-}
+};
 
 const ArticleDetailPage: NextPage<Props> = ({ pageContent, allCategories }) => (
   <div className="pageContainer">

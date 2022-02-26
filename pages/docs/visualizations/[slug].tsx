@@ -1,16 +1,16 @@
-import { NextPage, InferGetStaticPropsType } from 'next';
-import Head from 'next/head';
-import { getAllCategories, getArticle } from '@/lib/api';
-import SideBar from '@/components/sidebar';
-import ArticleContainer from '@/components/article-container';
+import { NextPage, InferGetStaticPropsType } from "next";
+import Head from "next/head";
+import { getAllCategories, getArticle } from "@/lib/api";
+import SideBar from "@/components/sidebar";
+import ArticleContainer from "@/components/article-container";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
 export const getStaticPaths = () => {
   const categories = getAllCategories();
-  const slugs = categories.flatMap(category => {
+  const slugs = categories.flatMap((category) => {
     return category.pages.map((page) => page.slug);
-  })
+  });
 
   return {
     paths: slugs.map((slug) => {
@@ -24,15 +24,19 @@ export const getStaticPaths = () => {
 
 export const getStaticProps = async ({ params }: any) => {
   const allCategories = getAllCategories();
-  const fullSlug = `/docs/visualizations/${params.slug}`
+  const fullSlug = `/docs/visualizations/${params.slug}`;
   const pageContent = await getArticle(`visualizations/${params.slug}`);
 
   return {
     props: { pageContent, allCategories, currentSlug: fullSlug },
   };
-}
+};
 
-const ArticleDetailPage: NextPage<Props> = ({ pageContent, allCategories, currentSlug }) => (
+const ArticleDetailPage: NextPage<Props> = ({
+  pageContent,
+  allCategories,
+  currentSlug,
+}) => (
   <div className="pageContainer">
     <Head>
       <title>{pageContent.title} - Metadocs</title>
@@ -41,7 +45,7 @@ const ArticleDetailPage: NextPage<Props> = ({ pageContent, allCategories, curren
 
     <div className="main-wrapper">
       <div className="page-wrapper">
-        <SideBar items={allCategories} currentSlug={currentSlug}/>
+        <SideBar items={allCategories} currentSlug={currentSlug} />
 
         <main className="main">
           <ArticleContainer page={pageContent}></ArticleContainer>
