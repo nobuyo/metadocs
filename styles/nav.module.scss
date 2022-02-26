@@ -1,12 +1,12 @@
 .nav {
-  padding: 12px;
-  box-shadow: 0px 2px 5px -2px #a8a8a8;
-  border-radius: 0px;
-  height: var(--navbar-height);
-  background-color: #fff;
   position: sticky;
   top: 0;
   z-index: 2;
+  height: var(--navbar-height);
+  padding: 12px;
+  background-color: #ffffff;
+  border-radius: 0;
+  box-shadow: 0 2px 5px -2px #a8a8a8;
 }
 
 .title {

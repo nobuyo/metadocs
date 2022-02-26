@@ -13,15 +13,15 @@
 }
 
 .pagesList {
-  margin-top: 16px;
   padding-left: 8px;
+  margin-top: 16px;
 }
 
 .pagesItem {
-  font-size: 1.6rem;
-  margin-top: 4px;
-  padding: 8px 4px;
   display: block;
+  padding: 8px 4px;
+  margin-top: 4px;
+  font-size: 1.6rem;
 
   &.current {
     color: #7276ff;
