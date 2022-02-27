@@ -6,9 +6,11 @@ import ArticleContainer from "@/components/article-container";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
+const CATEGORY_SLUG = 'parameters';
+
 export const getStaticPaths = () => {
   const categories = getAllCategories();
-  const slugs = categories.flatMap((category) => {
+  const slugs = categories.filter((c) => c.slug === CATEGORY_SLUG).flatMap((category) => {
     return category.pages.map((page) => page.slug);
   });
 
@@ -24,8 +26,8 @@ export const getStaticPaths = () => {
 
 export const getStaticProps = async ({ params }: any) => {
   const allCategories = getAllCategories();
-  const fullSlug = `/docs/parameters/${params.slug}`;
-  const pageContent = await getArticle(`parameters/${params.slug}`);
+  const fullSlug = `/docs/${CATEGORY_SLUG}/${params.slug}`;
+  const pageContent = await getArticle(`${CATEGORY_SLUG}/${params.slug}`);
 
   return {
     props: { pageContent, allCategories, currentSlug: fullSlug },

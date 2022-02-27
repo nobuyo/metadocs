@@ -26,7 +26,7 @@ const Home: NextPage<Props> = ({ pageContent, allCategories }) => {
 
       <div className="main-wrapper">
         <div className="page-wrapper">
-          <SideBar items={allCategories} />
+          <SideBar items={allCategories} currentSlug=''/>
 
           <main className="main">
             <ArticleContainer page={pageContent}></ArticleContainer>
