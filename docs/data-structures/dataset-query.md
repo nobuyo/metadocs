@@ -1,5 +1,7 @@
 ---
-sidebar_position: 4
+position: 4
+title: 'DatasetQuery'
+slug: dataset-query
 ---
 
 # DatasetQuery

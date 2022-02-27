@@ -1,6 +1,7 @@
 ---
-sidebar_position: 9
-slug: /visualizations/object
+position: 9
+title: 'Object Detail'
+slug: object
 ---
 
 # Object Detail

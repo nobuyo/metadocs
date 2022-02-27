@@ -1,6 +1,7 @@
 ---
-sidebar_position: 19
-slug: /visualizations/waterfall
+position: 19
+title: 'Waterfall Chart'
+slug: waterfall
 ---
 
 # Waterfall Chart
@@ -14,9 +15,9 @@ slug: /visualizations/waterfall
 
 ## Available Settings
 
-- [GRAPH_DATA_SETTINGS](/visualizations/#graph_data_settings)
-- [GRAPH_AXIS_SETTINGS](/visualizations/#graph_axis_settings)
-- [GRAPH_DISPLAY_VALUES_SETTINGS](/visualizations/#graph_display_values_settings)
+- [GRAPH_DATA_SETTINGS](/docs/visualizations/index#graph_data_settings)
+- [GRAPH_AXIS_SETTINGS](/docs/visualizations/index#graph_axis_settings)
+- [GRAPH_DISPLAY_VALUES_SETTINGS](/docs/visualizations/index#graph_display_values_settings)
 
 Key | Type | Description
 --|--|--

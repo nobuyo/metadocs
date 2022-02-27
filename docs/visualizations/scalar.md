@@ -1,6 +1,7 @@
 ---
-sidebar_position: 14
-slug: /visualizations/scalar
+position: 14
+title: 'Scalar'
+slug: scalar
 ---
 
 # Scalar

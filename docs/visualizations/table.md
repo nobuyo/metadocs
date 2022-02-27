@@ -1,6 +1,7 @@
 ---
-sidebar_position: 17
-slug: /visualizations/table
+position: 17
+title: 'Table'
+slug: table
 ---
 
 # Table

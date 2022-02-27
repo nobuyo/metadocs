@@ -1,6 +1,7 @@
 ---
-sidebar_position: 10
-slug: /visualizations/pie
+position: 10
+title: 'Pie Chart'
+slug: pie
 ---
 
 # Pie Chart

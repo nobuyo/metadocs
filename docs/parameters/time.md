@@ -1,6 +1,7 @@
 ---
-sidebar_position: 2
-slug: /parameters/time
+position: 2
+title: 'Time'
+slug: time
 ---
 
 # Time

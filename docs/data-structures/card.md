@@ -1,5 +1,7 @@
 ---
-sidebar_position: 1
+position: 1
+title: 'Card'
+slug: card
 ---
 
 # Card

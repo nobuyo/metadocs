@@ -1,6 +1,7 @@
 ---
-sidebar_position: 5
-slug: /visualizations/funnel
+position: 5
+title: 'Funnel'
+slug: funnel
 ---
 
 # Funnel

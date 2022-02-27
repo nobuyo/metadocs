@@ -1,6 +1,7 @@
 ---
-sidebar_position: 1
-slug: /
+position: 1
+slug:
+title: 'About'
 ---
 
 # About
@@ -9,11 +10,6 @@ slug: /
 
 Metadocs is an unofficial cheat sheet for the internal representation of Metabase.  
 It can be useful for configuring dashboards with code.
-
-
-:::note
-This is work in progress.
-:::
 
 ## Related tools
 

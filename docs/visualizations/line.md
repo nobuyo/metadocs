@@ -1,6 +1,7 @@
 ---
-sidebar_position: 7
-slug: /visualizations/line
+position: 7
+title: 'Line Chart'
+slug: line
 ---
 
 # Line Chart
@@ -14,9 +15,9 @@ slug: /visualizations/line
 
 ## Available Settings
 
-- [GRAPH_DATA_SETTINGS](/visualizations/#graph_data_settings)
-- [LINE_SETTINGS](/visualizations/#line_settings)
-- [GRAPH_GOAL_SETTINGS](/visualizations/#graph_goal_settings)
-- [GRAPH_COLORS_SETTINGS](/visualizations/#graph_colors_settings)
-- [GRAPH_AXIS_SETTINGS](/visualizations/#graph_axis_settings)
-- [GRAPH_DISPLAY_VALUES_SETTINGS](/visualizations/#graph_display_values_settings)
+- [GRAPH_DATA_SETTINGS](/docs/visualizations/index#graph_data_settings)
+- [LINE_SETTINGS](/docs/visualizations/index#line_settings)
+- [GRAPH_GOAL_SETTINGS](/docs/visualizations/index#graph_goal_settings)
+- [GRAPH_COLORS_SETTINGS](/docs/visualizations/index#graph_colors_settings)
+- [GRAPH_AXIS_SETTINGS](/docs/visualizations/index#graph_axis_settings)
+- [GRAPH_DISPLAY_VALUES_SETTINGS](/docs/visualizations/index#graph_display_values_settings)

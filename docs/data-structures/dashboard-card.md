@@ -1,5 +1,7 @@
 ---
-sidebar_position: 3
+position: 3
+title: 'DashboardCard'
+slug: dashboard-card
 ---
 
 # DashboardCard
@@ -22,7 +24,7 @@ sizeY | int | Card size of Y axis
 col | int | Horizontal position, zero origin, max block size is 18.
 row | int | Vertical position, zero origin.
 parameter_mappings | [ParameterMapping](/parameters)[] | JSON stringified
-visualization_settings | `[key: string]: any` | See [Visualizations](/visualizations) for detail.
+visualization_settings | `[key: string]: any` | See [Visualizations](/docs/visualizations) for detail.
 
 ## Source Code
 

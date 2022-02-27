@@ -1,6 +1,7 @@
 ---
-sidebar_position: 12
-slug: /visualizations/progress
+position: 12
+title: 'Progress'
+slug: progress
 ---
 
 # Progress

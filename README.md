@@ -9,7 +9,7 @@ You can view it [here](https://nobuyo.github.io/metadocs).
 
 ```sh
 % npm install
-% npm run start # run live document at localhost:3000
+% npm run dev # run live document at localhost:3000
 ```
 
 ## Contribution

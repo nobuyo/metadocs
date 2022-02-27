@@ -1,6 +1,7 @@
 ---
-sidebar_position: 18
-slug: /visualizations/text
+position: 18
+title: 'Text'
+slug: text
 ---
 
 # Text

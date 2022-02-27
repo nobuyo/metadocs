@@ -1,6 +1,7 @@
 ---
-sidebar_position: 15
-slug: /visualizations/scatter
+position: 15
+title: 'Scatter'
+slug: scatter
 ---
 
 # Scatter
@@ -14,8 +15,8 @@ slug: /visualizations/scatter
 
 ## Available Settings
 
-- [GRAPH_DATA_SETTINGS](/visualizations/#graph_data_settings)
-- [GRAPH_BUBBLE_SETTINGS](/visualizations/#graph_bubble_settings)
-- [GRAPH_GOAL_SETTINGS](/visualizations/#graph_goal_settings)
-- [GRAPH_COLORS_SETTINGS](/visualizations/#graph_colors_settings)
-- [GRAPH_AXIS_SETTINGS](/visualizations/#graph_axis_settings)
+- [GRAPH_DATA_SETTINGS](/docs/visualizations/index#graph_data_settings)
+- [GRAPH_BUBBLE_SETTINGS](/docs/visualizations/index#graph_bubble_settings)
+- [GRAPH_GOAL_SETTINGS](/docs/visualizations/index#graph_goal_settings)
+- [GRAPH_COLORS_SETTINGS](/docs/visualizations/index#graph_colors_settings)
+- [GRAPH_AXIS_SETTINGS](/docs/visualizations/index#graph_axis_settings)

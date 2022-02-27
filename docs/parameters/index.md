@@ -1,6 +1,7 @@
 ---
-sidebar_position: 1
-slug: /parameters
+position: 1
+title: 'About Parameters'
+slug: index
 ---
 
 # About Parameters

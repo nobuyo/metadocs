@@ -1,0 +1,30 @@
+.category {
+  margin-top: 12px;
+
+  & + & {
+    margin-top: 36px;
+  }
+}
+
+.categoryName {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #3e3e3e;
+}
+
+.pagesList {
+  padding-left: 8px;
+  margin-top: 16px;
+}
+
+.pagesItem {
+  display: block;
+  padding: 8px 4px;
+  margin-top: 4px;
+  font-size: 1.6rem;
+
+  &.current {
+    color: #7276ff;
+    background-color: #f0f4ff;
+  }
+}

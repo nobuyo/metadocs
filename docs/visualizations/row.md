@@ -1,6 +1,7 @@
 ---
-sidebar_position: 13
-slug: /visualizations/row
+position: 13
+title: 'Row Chart'
+slug: row
 ---
 
 # Row Chart
@@ -14,5 +15,5 @@ slug: /visualizations/row
 
 ## Available Settings
 
-- [GRAPH_DATA_SETTINGS](/visualizations/#graph_data_settings)
-- [GRAPH_COLORS_SETTINGS](/visualizations/#graph_colors_settings)
+- [GRAPH_DATA_SETTINGS](/docs/visualizations/index#graph_data_settings)
+- [GRAPH_COLORS_SETTINGS](/docs/visualizations/index#graph_colors_settings)

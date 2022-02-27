@@ -1,6 +1,7 @@
 ---
-sidebar_position: 6
-slug: /visualizations/gauge
+position: 6
+title: 'Gauge'
+slug: gauge
 ---
 
 # Gauge

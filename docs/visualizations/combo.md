@@ -1,6 +1,7 @@
 ---
-sidebar_position: 4
-slug: /visualizations/combo
+position: 4
+title: 'Combo Chart'
+slug: combo
 ---
 
 # Combo Chart
@@ -14,9 +15,9 @@ slug: /visualizations/combo
 
 ## Available Settings
 
-- [GRAPH_DATA_SETTINGS](/visualizations/#graph_data_settings)
-- [LINE_SETTINGS](/visualizations/#line_settings)
-- [GRAPH_GOAL_SETTINGS](/visualizations/#graph_goal_settings)
-- [GRAPH_COLORS_SETTINGS](/visualizations/#graph_colors_settings)
-- [GRAPH_AXIS_SETTINGS](/visualizations/#graph_axis_settings)
-- [GRAPH_DISPLAY_VALUES_SETTINGS](/visualizations/#graph_display_values_settings)
+- [GRAPH_DATA_SETTINGS](/docs/visualizations/index#graph_data_settings)
+- [LINE_SETTINGS](/docs/visualizations/index#line_settings)
+- [GRAPH_GOAL_SETTINGS](/docs/visualizations/index#graph_goal_settings)
+- [GRAPH_COLORS_SETTINGS](/docs/visualizations/index#graph_colors_settings)
+- [GRAPH_AXIS_SETTINGS](/docs/visualizations/index#graph_axis_settings)
+- [GRAPH_DISPLAY_VALUES_SETTINGS](/docs/visualizations/index#graph_display_values_settings)

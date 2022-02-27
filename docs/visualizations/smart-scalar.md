@@ -1,6 +1,7 @@
 ---
-sidebar_position: 16
-slug: /visualizations/smart-scalar
+position: 16
+title: 'Smart Scalar'
+slug: smart-scalar
 ---
 
 # Smart Scalar

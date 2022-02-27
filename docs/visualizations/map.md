@@ -1,6 +1,7 @@
 ---
-sidebar_position: 8
-slug: /visualizations/map
+position: 8
+title: 'Map'
+slug: map
 ---
 
 # Map

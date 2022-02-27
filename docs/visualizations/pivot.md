@@ -1,6 +1,7 @@
 ---
-sidebar_position: 11
-slug: /visualizations/pivot
+position: 11
+title: 'Pivot Table'
+slug: pivot
 ---
 
 # Pivot Table

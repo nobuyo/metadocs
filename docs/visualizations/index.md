@@ -1,6 +1,7 @@
 ---
-sidebar_position: 1
-slug: /visualizations
+position: 1
+title: 'About Visualizations'
+slug: index
 ---
 
 # About Visualizations
@@ -145,21 +146,21 @@ graph.y_axis.title_text | string | Y-axis label
 
 ## Visualization types
 
-- [Area Chart](/visualizations/area)
-- [Bar Chart](/visualizations/bar)
-- [Combo Chart](/visualizations/combo)
-- [Funnel](/visualizations/funnel)
-- [Gauge](/visualizations/gauge)
-- [Line](/visualizations/line)
-- [Map](/visualizations/map)
-- [Object Detail](/visualizations/object)
-- [Pie Chart](/visualizations/pie)
-- [Pivot Table](/visualizations/pivot)
-- [Progress](/visualizations/progress)
-- [Row Chart](/visualizations/row)
-- [Scalar](/visualizations/scalar)
-- [Scatter Plot](/visualizations/scatter)
-- [Smart Scalar](/visualizations/smart-scalar)
-- [Table](/visualizations/table)
-- [Text](/visualizations/text)
-- [Waterfall Chart](/visualizations/waterfall)
+- [Area Chart](/docs/visualizations/area)
+- [Bar Chart](/docs/visualizations/bar)
+- [Combo Chart](/docs/visualizations/combo)
+- [Funnel](/docs/visualizations/funnel)
+- [Gauge](/docs/visualizations/gauge)
+- [Line](/docs/visualizations/line)
+- [Map](/docs/visualizations/map)
+- [Object Detail](/docs/visualizations/object)
+- [Pie Chart](/docs/visualizations/pie)
+- [Pivot Table](/docs/visualizations/pivot)
+- [Progress](/docs/visualizations/progress)
+- [Row Chart](/docs/visualizations/row)
+- [Scalar](/docs/visualizations/scalar)
+- [Scatter Plot](/docs/visualizations/scatter)
+- [Smart Scalar](/docs/visualizations/smart-scalar)
+- [Table](/docs/visualizations/table)
+- [Text](/docs/visualizations/text)
+- [Waterfall Chart](/docs/visualizations/waterfall)
