@@ -6,7 +6,7 @@ import ArticleContainer from "@/components/article-container";
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
-const CATEGORY_SLUG = 'data-structure';
+const CATEGORY_SLUG = 'data-structures';
 
 export const getStaticPaths = () => {
   const categories = getAllCategories();

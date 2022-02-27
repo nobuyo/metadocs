@@ -23,8 +23,8 @@ sizeX | int | Card size of X axis
 sizeY | int | Card size of Y axis
 col | int | Horizontal position, zero origin, max block size is 18.
 row | int | Vertical position, zero origin.
-parameter_mappings | [ParameterMapping](/parameters)[] | JSON stringified
-visualization_settings | `[key: string]: any` | See [Visualizations](/docs/visualizations) for detail.
+parameter_mappings | [ParameterMapping](/metadocs/docs/parameters)[] | JSON stringified
+visualization_settings | `[key: string]: any` | See [Visualizations](/metadocs/docs/visualizations) for detail.
 
 ## Source Code
 

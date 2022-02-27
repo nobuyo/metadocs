@@ -16,7 +16,7 @@ Name|Type|Description
 --|--|--
 id | int | Primary key
 collection_id | int | id number of collection
-parameters | [Parameter](/parameters)[] | JSON stringified
+parameters | [Parameter](/metadocs/docs/parameters)[] | JSON stringified
 
 ## Source Code
 

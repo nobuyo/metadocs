@@ -22,7 +22,7 @@ collection_id | int | id number of collection
 query_type | string | `native` or `query`
 name | string | Display name of the card
 description | string | Description name of the card
-dataset_query | [DatasetQuery](/data-structures/dataset-query) | JSON stringified
+dataset_query | [DatasetQuery](/metadocs/docs/data-structures/dataset-query) | JSON stringified
 
 ## Source Code
 

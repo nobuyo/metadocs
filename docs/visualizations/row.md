@@ -15,5 +15,5 @@ slug: row
 
 ## Available Settings
 
-- [GRAPH_DATA_SETTINGS](/docs/visualizations/index#graph_data_settings)
-- [GRAPH_COLORS_SETTINGS](/docs/visualizations/index#graph_colors_settings)
+- [GRAPH_DATA_SETTINGS](/metadocs/docs/visualizations/index#graph_data_settings)
+- [GRAPH_COLORS_SETTINGS](/metadocs/docs/visualizations/index#graph_colors_settings)

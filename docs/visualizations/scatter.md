@@ -15,8 +15,8 @@ slug: scatter
 
 ## Available Settings
 
-- [GRAPH_DATA_SETTINGS](/docs/visualizations/index#graph_data_settings)
-- [GRAPH_BUBBLE_SETTINGS](/docs/visualizations/index#graph_bubble_settings)
-- [GRAPH_GOAL_SETTINGS](/docs/visualizations/index#graph_goal_settings)
-- [GRAPH_COLORS_SETTINGS](/docs/visualizations/index#graph_colors_settings)
-- [GRAPH_AXIS_SETTINGS](/docs/visualizations/index#graph_axis_settings)
+- [GRAPH_DATA_SETTINGS](/metadocs/docs/visualizations/index#graph_data_settings)
+- [GRAPH_BUBBLE_SETTINGS](/metadocs/docs/visualizations/index#graph_bubble_settings)
+- [GRAPH_GOAL_SETTINGS](/metadocs/docs/visualizations/index#graph_goal_settings)
+- [GRAPH_COLORS_SETTINGS](/metadocs/docs/visualizations/index#graph_colors_settings)
+- [GRAPH_AXIS_SETTINGS](/metadocs/docs/visualizations/index#graph_axis_settings)

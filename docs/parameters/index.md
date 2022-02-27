@@ -34,8 +34,8 @@ target | `['variable', ['template-tag', slug]]` | Some other styles are omitted.
   - type: `id`
 - Category
   - type: `category`
-- [Time](/parameters/time)
-- [Location](/parameters/location)
+- [Time](/metadocs/docs/parameters/time)
+- [Location](/metadocs/docs/parameters/location)
 
 ## Source Code
 

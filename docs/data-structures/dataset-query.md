@@ -8,7 +8,7 @@ slug: dataset-query
 
 *This page describes `native` queries.*  
 
-DatasetQuery is attribute of [Card](/data-structures/card), and just an object not a separate model.
+DatasetQuery is attribute of [Card](/metadocs/docs/data-structures/card), and just an object not a separate model.
 
 
 ## Attributes
@@ -39,7 +39,7 @@ name | string | Used as a key for mapping with filters on the dashboard.
 display-name | string | Display name
 type | `text` \| `date` \| `number` \| `dimension` |
 dimension | `['field-id', field-id]` | `field-id` is ID on `metabase_field` table.<br/>Required if `type === dimension`.
-widget-type | string | `category`, `date/*`, etc. See [Parameters](/parameters) for types list.<br/>Required if `type === dimension`.
+widget-type | string | `category`, `date/*`, etc. See [Parameters](/metadocs/docs/parameters) for types list.<br/>Required if `type === dimension`.
 
 ## Source Code
 

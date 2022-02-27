@@ -15,9 +15,9 @@ slug: waterfall
 
 ## Available Settings
 
-- [GRAPH_DATA_SETTINGS](/docs/visualizations/index#graph_data_settings)
-- [GRAPH_AXIS_SETTINGS](/docs/visualizations/index#graph_axis_settings)
-- [GRAPH_DISPLAY_VALUES_SETTINGS](/docs/visualizations/index#graph_display_values_settings)
+- [GRAPH_DATA_SETTINGS](/metadocs/docs/visualizations/index#graph_data_settings)
+- [GRAPH_AXIS_SETTINGS](/metadocs/docs/visualizations/index#graph_axis_settings)
+- [GRAPH_DISPLAY_VALUES_SETTINGS](/metadocs/docs/visualizations/index#graph_display_values_settings)
 
 Key | Type | Description
 --|--|--
