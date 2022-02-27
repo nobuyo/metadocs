@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Metadocs
 
-## Getting Started
+![build](https://github.com/nobuyo/metadocs/actions/workflows/publish.yml/badge.svg?branch=deploy)
 
-First, run the development server:
+Unofficial Metabase internal representation cheat sheet.
+You can view it [here](https://nobuyo.github.io/metadocs).
 
-```bash
-npm run dev
-# or
-yarn dev
+## Start writing
+
+```sh
+% npm install
+% npm run dev # run live document at localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contribution
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. Fork it ( http://github.com/nobuyo/metadocs/fork )
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## LICENSE
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[MIT License](https://opensource.org/licenses/MIT)
 
-## Learn More
+**NOTE**
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+It is created based on the original [metabase](https://github.com/metabase/metabase) implementation.
+If you have any problems with the license or other issues, please let me know through GitHub Issue.
