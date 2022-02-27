@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "../styles/nav.module.scss";
-import Image from "next/image";
 import Link from "next/link";
 
 const Nav = () => {
@@ -10,11 +10,7 @@ const Nav = () => {
           <a>
             <div className={styles.title}>
               <div className="logo">
-                {Image({
-                  src: "/microscope.svg",
-                  width: "32px",
-                  height: "32px",
-                })}
+                <img src="/microscope.svg" width="32px" height="32px" alt="logo"></img>
               </div>
               <div className={styles.text}>Metadocs</div>
             </div>
