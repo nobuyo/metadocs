@@ -1,5 +1,7 @@
 import { NextPage, InferGetStaticPropsType } from "next";
 import Head from "next/head";
+import getConfig from "next/config";
+
 import { getAllCategories, getArticle } from "@/lib/api";
 import SideBar from "@/components/sidebar";
 import ArticleContainer from "@/components/article-container";
@@ -7,6 +9,7 @@ import ArticleContainer from "@/components/article-container";
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
 const CATEGORY_SLUG = 'data-structures';
+const { publicRuntimeConfig } = getConfig();
 
 export const getStaticPaths = () => {
   const categories = getAllCategories();
@@ -38,23 +41,27 @@ const ArticleDetailPage: NextPage<Props> = ({
   pageContent,
   allCategories,
   currentSlug,
-}) => (
-  <div className="pageContainer">
-    <Head>
-      <title>{pageContent.title} - Metadocs</title>
-      <link rel="icon" href="/microscope.svg" />
-    </Head>
+}) => {
+  const basePath = publicRuntimeConfig?.basePath ?? '';
 
-    <div className="main-wrapper">
-      <div className="page-wrapper">
-        <SideBar items={allCategories} currentSlug={currentSlug} />
+  return (
+    <div className="pageContainer">
+      <Head>
+        <title>{pageContent.title} - Metadocs</title>
+        <link rel="icon" href={`${basePath}/microscope.svg`} />
+      </Head>
 
-        <main className="main">
-          <ArticleContainer page={pageContent}></ArticleContainer>
-        </main>
+      <div className="main-wrapper">
+        <div className="page-wrapper">
+          <SideBar items={allCategories} currentSlug={currentSlug} />
+
+          <main className="main">
+            <ArticleContainer page={pageContent}></ArticleContainer>
+          </main>
+        </div>
       </div>
     </div>
-  </div>
-);
+  )
+};
 
 export default ArticleDetailPage;
